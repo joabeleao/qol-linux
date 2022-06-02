@@ -6,7 +6,7 @@
 
 # username for setting tweaks to user
 USERNAME='myname'
-# Basic apps for system, filesystem and network management and development 
+# Basic apps for system, filesystem and network management; development and utility tools 
 APPS=("git" "curl" "wget" "vim" "neovim" "nmap" "tcpdump" "lsof" "rsync" "iftop" "whois" "bmon" "htop" "net-tools" "sngrep" "openvpn" "python3" "python3-pip" "flatpak" "gnome-software-plugin-flatpak" "gnome-shell-extensions" "gnome-tweaks" "fonts-powerline")
 # log
 LOG='/var/log/qol-linux'
@@ -17,9 +17,10 @@ function qol_apps() {
     apt update -y && sudo apt upgrade -y
     apt install -y "${APPS[@]}"
     
-    # Install telgram-desktop
-    flatpak install --from \
-        https://flathub.org/repo/appstream/org.telegram.desktop.flatpakref
+    # Install office suite, graphic, communication, audio and utility apps 
+    flatpak install -y com.wps.Office org.glimpse_editor.Glimpse org.inkscape.Inkscape org.audacityteam.Audacity com.discordapp.Discord com.spotify.Client com.microsoft.Edge org.telegram
+    # dev and database apps
+    flatpak install -y rest.insomnia.Insomnia com.visualstudio.code app.resp.RESP io.dbeaver.DBeaverCommunity
     
     # update after install
     apt update -y && sudo apt upgrade -y
