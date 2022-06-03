@@ -5,7 +5,7 @@
 #
 
 # username for setting tweaks to user
-USERNAME='joabeleao'
+USERNAME='INSERUSERNAME'
 
 # Basic apps for system, filesystem and network management; development and utility tools 
 APPS=("curl" "wget" "vim" "neovim" "nmap" "tcpdump" "lsof" "rsync" "iftop" "whois" "bmon" "htop" "net-tools" "sngrep" "openvpn" "python3" "python3-pip" "flatpak" "gnome-software-plugin-flatpak" "gnome-shell-extensions" "gnome-tweaks" "fonts-powerline")
@@ -108,7 +108,7 @@ function qol_themes() {
 	
 }
 
-#qol_apps
-#qol_bashrc
-#qol_ssh
+qol_apps
+qol_bashrc
+qol_ssh
 qol_themes
