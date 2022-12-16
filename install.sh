@@ -112,3 +112,9 @@ qol_apps
 qol_bashrc
 qol_ssh
 qol_themes
+
+#TODO
+# tmux.conf
+# tmux-net-speed
+# tmux-power
+# tmux-prefix-highlight
