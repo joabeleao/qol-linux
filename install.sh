@@ -8,7 +8,7 @@
 USERNAME='INSERUSERNAME'
 
 # Basic apps for system, filesystem and network management; development and utility tools 
-APPS=("curl" "wget" "vim" "neovim" "nmap" "tcpdump" "lsof" "rsync" "iftop" "whois" "bmon" "htop" "net-tools" "sngrep" "openvpn" "python3" "python3-pip" "flatpak" "gnome-software-plugin-flatpak" "gnome-shell-extensions" "gnome-tweaks" "fonts-powerline")
+APPS=("autotools-dev" "automake" "tmux" "curl" "wget" "vim" "neovim" "nmap" "tcpdump" "lsof" "rsync" "iftop" "whois" "bmon" "htop" "net-tools" "sngrep" "openvpn" "python3" "python3-pip" "flatpak" "gnome-software-plugin-flatpak" "gnome-shell-extensions" "gnome-tweaks" "fonts-powerline")
 
 # Basic flatpak apps for office suite, graphic, communication, audio, utility apps, \
 # development and database tools
